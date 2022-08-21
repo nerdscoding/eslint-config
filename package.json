@@ -1,0 +1,27 @@
+{
+  "name": "@nerdscoding/eslint-config",
+  "version": "1.0.0",
+  "description": "coding style guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nerdscoding/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "nerdscoding",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nerdscoding/eslint-config/issues"
+  },
+  "homepage": "https://github.com/nerdscoding/eslint-config#readme",
+  "volta": {
+    "node": "16.17.0",
+    "npm": "8.18.0"
+  }
+}
