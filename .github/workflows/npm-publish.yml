@@ -13,9 +13,9 @@ jobs:
           fetch-depth: 0
       - name: Init
       - uses: volta-cli/action@v1
-        run: npm ci
+      - run: npm ci
       - name: Deploy
-        env:
+      - env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx semantic-release
+      - run: npx semantic-release
