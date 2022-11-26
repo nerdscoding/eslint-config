@@ -3,6 +3,22 @@
 
 Coding style guide for @nerdscoding.
 
+## Install
+
+```shell
+npm install @nerdscoding/eslint-config
+```
+
+## Usage
+
+Add below line in your project's `.eslintrc.json`:
+
+```json
+{
+  "extends": "@nerdscoding"
+}
+```
+
 ## TODO
 
 override the "eslint-plugin-import" rules
