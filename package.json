@@ -21,8 +21,7 @@
   },
   "homepage": "https://github.com/nerdscoding/eslint-config#readme",
   "volta": {
-    "node": "16.17.0",
-    "npm": "8.18.0"
+    "node": "18.12.1"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
